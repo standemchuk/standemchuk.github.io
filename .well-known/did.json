@@ -1,0 +1,36 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1"
+    ],
+    "id": "did:web:standemchuk.github.io",
+    "verificationMethod": [
+      {
+        "id": "did:web:standemchuk.github.io#owner",
+        "type": "Ed25519VerificationKey2020",
+        "controller": "standemchuk.github.io",
+        "publicKeyMultibase": "z6MkvD75iyHKQt6czY3mtXg2hYbKVTxtEDwGmGVMfCQTuYGd"
+      },
+      {
+        "id": "standemchuk.github.io:legal",
+        "type": "Ed25519VerificationKey2020",
+        "publicKeyMultibase": "z6MkizQotZaECDgTAstN8aNcaP46W459Dc3d9iXdfzkJMz2k",
+        "relationshipParent": [
+          "did:web:standemchuk.github.io#owner"
+        ]
+      }
+    ],
+    "authentication": [
+      "did:web:standemchuk.github.io#owner"
+    ],
+    "assertionMethod": [
+      "did:web:standemchuk.github.io#owner"
+    ],
+    "capabilityDelegation": [
+      "did:web:standemchuk.github.io#owner"
+    ],
+    "capabilityInvocation": [
+      "did:web:standemchuk.github.io#owner"
+    ],
+    "type": "ConditionalProof2022"
+  }
+  
