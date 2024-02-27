@@ -12,7 +12,7 @@
     },
     {
       "id": "did:web:standemchuk.github.io:legal",
-      "type": "Ed25519VerificationKey2020",
+      "type": "ConditionalProof2022",
       "publicKeyMultibase": "z6MkizQotZaECDgTAstN8aNcaP46W459Dc3d9iXdfzkJMz2k",
       "relationshipParent": [
         "did:web:standemchuk.github.io#owner"
