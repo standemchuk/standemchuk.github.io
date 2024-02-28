@@ -11,13 +11,9 @@
       "publicKeyMultibase": "z6MkvD75iyHKQt6czY3mtXg2hYbKVTxtEDwGmGVMfCQTuYGd"
     },
     {
-      "id": "did:web:standemchuk.github.io:legal#owner",
-      "type": "ConditionalProof2022",
-      "publicKeyMultibase": "z6MkizQotZaECDgTAstN8aNcaP46W459Dc3d9iXdfzkJMz2k",
-      "conditionDelegated": "did:web:standemchuk.github.io#owner",
-      "relationshipParent": [
-        "did:web:standemchuk.github.io#owner"
-      ]
+      "id": "did:web:standemchuk.github.io:legal#legal-delegate",
+      "type": "Ed25519VerificationKey2020",
+      "publicKeyMultibase": "z6MkizQotZaECDgTAstN8aNcaP46W459Dc3d9iXdfzkJMz2k"
     }
   ],
   "authentication": [
