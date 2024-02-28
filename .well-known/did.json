@@ -12,8 +12,8 @@
     },
     {
       "id": "did:web:standemchuk.github.io:legal#legal-delegate",
-      "type": "Ed25519VerificationKey2020",
-      "publicKeyMultibase": "z6MkizQotZaECDgTAstN8aNcaP46W459Dc3d9iXdfzkJMz2k"
+      "type": "ConditionalProof2022",
+      "conditionDelegated": "did:web:standemchuk.github.io:elgal#owner"
     }
   ],
   "authentication": [

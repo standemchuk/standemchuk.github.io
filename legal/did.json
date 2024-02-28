@@ -5,11 +5,10 @@
     "id": "did:web:standemchuk.github.io:legal",
     "verificationMethod": [
       {
-        "id": "did:web:standemchuk.github.io:legal#owner",
-        "type": "ConditionalProof2022",
+        "id": "did:web:standemchuk.github.io:legal",
+        "type": "Ed25519VerificationKey2020",
         "controller": "standemchuk.github.io:legal",
-        "publicKeyMultibase": "z6MkizQotZaECDgTAstN8aNcaP46W459Dc3d9iXdfzkJMz2k",
-        "conditionDelegated": "did:web:standemchuk.github.io#legal-delegate"
+        "publicKeyMultibase": "z6MkizQotZaECDgTAstN8aNcaP46W459Dc3d9iXdfzkJMz2k"
       }
     ],
     "authentication": [
@@ -23,7 +22,6 @@
     ],
     "capabilityInvocation": [
       "did:web:standemchuk.github.io:legal#owner"
-    ],
-    "type": "ConditionalProof2022"
+    ]
   }
   
