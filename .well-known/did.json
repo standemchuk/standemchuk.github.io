@@ -13,7 +13,7 @@
     {
       "id": "did:web:standemchuk.github.io:legal#legal-delegate",
       "type": "ConditionalProof2022",
-      "conditionDelegated": "did:web:standemchuk.github.io:elgal#owner"
+      "conditionDelegated": "did:web:standemchuk.github.io:legal#owner"
     }
   ],
   "authentication": [
